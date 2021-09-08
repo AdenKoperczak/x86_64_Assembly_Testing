@@ -13,7 +13,7 @@ hard work. fib takes the count, lower, and upper, as arguments. It then returns
 an array which contains the sequence. The sequence starts at the next value, 
 (lower + upper) and goes from their.
 
-###IMPORTANT
+### IMPORTANT
 If you are useing fib in your program, you should do the following:
 1. Check to make sure the returned array is not NULL.
 2. Free the returned array when you are done with it.
