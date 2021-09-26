@@ -22,7 +22,10 @@ integrate:
 ; move variables to memory for function call.
     movsd [rbp - 16], xmm2 ; step
     movsd [rbp - 24], xmm1 ; upper
+
 ; clear the variable that will be the sum
+    xorpd xmm1, xmm1
+    movsd xmm1, [rbp - 40]
 
 ; set xmm1 to the lower value, is used as current value
     movsd xmm1, xmm0
