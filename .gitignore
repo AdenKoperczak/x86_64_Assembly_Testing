@@ -1,2 +1,6 @@
 *.o
 main
+abi.pdf
+x86_reg.pdf
+old_asm
+old_asm/*
